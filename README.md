@@ -1,12 +1,12 @@
 # connect-redirect
 ### install
 ```	
-npm install connect-redirect
+npm install http-res-redirect
 ```
 
 ### example
 ```
-var http = require('connect-redirect');
+var http = require('http-res-redirect');
 var app  = require('connect')();
 
 app.use('/redirect',(req,res,next) => {
