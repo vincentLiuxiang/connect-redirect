@@ -1,4 +1,4 @@
-# connect-redirect
+# http-res-redirect
 ### install
 ```	
 npm install http-res-redirect

@@ -8,12 +8,17 @@
   },
   "author": "liuxiang",
   "license": "MIT",
+  "keywords": [
+    "connect",
+    "http",
+    "redirect"
+  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vincentLiuxiang/connect-redirect.git"
+    "url": "git+https://github.com/vincentLiuxiang/http-res-redirect.git"
   },
   "bugs": {
-    "url": "https://github.com/vincentLiuxiang/connect-redirect/issues"
+    "url": "https://github.com/vincentLiuxiang/http-res-redirect/issues"
   },
-  "homepage": "https://github.com/vincentLiuxiang/connect-redirect#readme"
+  "homepage": "https://github.com/vincentLiuxiang/http-res-redirect#readme"
 }
