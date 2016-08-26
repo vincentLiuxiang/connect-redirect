@@ -16,10 +16,13 @@ var http = require('http-res-redirect');
 var app  = require('connect')();
 
 app.use('/redirect',(req,res,next) => {
-  res.redirect('http://www.google.com');
+  res.redirect('/hello');
+  //res.redirect('http://www.google.com');
 })
 
-//app.use(...)
+app.use('/hello',(req,res,next) => {
+  res.end('hello world');
+})
 
 var server = http.Server(app);
 
