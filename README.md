@@ -4,6 +4,12 @@
 npm install http-res-redirect
 ```
 
+#### return
+var http = require('http-res-redirect');
+
+* it returns a http object;
+* you only need change require('http) to require('http-res-redirect');
+
 ### example
 ```
 var http = require('http-res-redirect');
