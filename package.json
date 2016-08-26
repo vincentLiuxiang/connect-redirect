@@ -1,0 +1,19 @@
+{
+  "name": "connect-redirect",
+  "version": "0.0.1",
+  "description": "connect redirect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "liuxiang",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincentLiuxiang/connect-redirect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vincentLiuxiang/connect-redirect/issues"
+  },
+  "homepage": "https://github.com/vincentLiuxiang/connect-redirect#readme"
+}
