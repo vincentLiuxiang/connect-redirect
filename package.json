@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/vincentLiuxiang/http-res-redirect/issues"
   },
-  "homepage": "https://github.com/vincentLiuxiang/http-res-redirect#readme"
+  "homepage": "https://github.com/vincentLiuxiang/http-res-redirect#readme",
+  "devDependencies": {
+    "connect": "^3.5.0"
+  }
 }
