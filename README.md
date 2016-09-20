@@ -16,6 +16,8 @@ var http = require('http-res-redirect');
 var app  = require('connect')();
 
 app.use('/redirect',(req,res,next) => {
+  res.redirect(301,'/hello');
+  // statusCode 302 by default
   res.redirect('/hello');
   //res.redirect('http://www.google.com');
 })
@@ -35,10 +37,13 @@ server.listen(3006);
 * The res is an instance of http.ServerResponse, so we can append a redirect property to http.ServerResponse.prototype, like:
 
 ```
-http.ServerResponse.prototype.redirect = function (url) {
-  this.statusCode = 302;
+http.ServerResponse.prototype.redirect = function (code,url) {
+  if ('string' === typeof code) {
+    url = code;
+    code = 302;
+  }
+  this.statusCode = code;
   this.setHeader('Location',url);
   this.end();
 }
-
 ```
